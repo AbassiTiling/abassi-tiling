@@ -658,7 +658,7 @@ footer{background:var(--black);padding:5rem 5% 2.5rem}
       </div>
       <div class="cd">
         <div class="cd-icon">✉️</div>
-        <div class="cd-body"><strong>Email</strong><a href="/cdn-cgi/l/email-protection#a4c5c6c5d7d7cd8ad0cdc8cdcac3e4ddc5cccbcb8ac7cbc9">abassi.tiling&#64;yahoo.com</a></div>
+        <div class="cd-body"><strong>Email</strong><a href="mailto:abassi.tiling@yahoo.com">abassi.tiling&#64;yahoo.com</a></div>
       </div>
       <div class="cd">
         <div class="cd-icon">📍</div>
@@ -847,20 +847,7 @@ function sendEnquiry() {
       fs.innerHTML =
         '<div class="fs-icon">&#x2705;</div>' +
         '<h4>Enquiry Sent!</h4>' +
-        '<p>Thank you ' + fname + ' &mdash; your enquiry has been sent to Abassi Tiling.<br>We\'ll get back to you within a few hours.</p>' +
-        '<div style="background:rgba(200,146,42,0.08);border:1px solid rgba(200,146,42,0.28);border-radius:4px;padding:1.5rem 1.8rem;margin:1.5rem 0;text-align:left">' +
-          '<div style="font-size:0.65rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem">&#x1F4B3; Payment &mdash; Bank Transfer Details</div>' +
-          '<div style="font-size:0.84rem;line-height:2.2">' +
-            '<span style="color:var(--mid)">Bank:</span>&nbsp;&nbsp;<strong style="color:var(--white)">Commonwealth Bank</strong><br>' +
-            '<span style="color:var(--mid)">Account Name:</span>&nbsp;&nbsp;<strong style="color:var(--white)">Abassi Tiling</strong><br>' +
-            '<span style="color:var(--mid)">BSB:</span>&nbsp;&nbsp;<strong style="color:var(--white)">067 872</strong><br>' +
-            '<span style="color:var(--mid)">Account Number:</span>&nbsp;&nbsp;<strong style="color:var(--white)">42552651</strong><br>' +
-            '<span style="color:var(--mid)">Reference:</span>&nbsp;&nbsp;<strong style="color:var(--white)">Your name + phone number</strong>' +
-          '</div>' +
-          '<div style="font-size:0.7rem;color:var(--mid);margin-top:0.8rem;border-top:1px solid rgba(255,255,255,0.08);padding-top:0.8rem">' +
-            'No payment required until we confirm your quote. We will be in touch shortly.' +
-          '</div>' +
-        '</div>';
+        '<p>Thank you ' + fname + ' &mdash; your enquiry has been sent to Abassi Tiling.<br>We\'ll get back to you within 24 hours.</p>';
       fs.classList.add('show');
     } else {
       btn.textContent = 'Send My Enquiry \u2192';
